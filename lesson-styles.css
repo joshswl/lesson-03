@@ -1,0 +1,64 @@
+/*Style Resets*/
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+ul {
+  padding-left: none;
+
+
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*Grid and general layout*/
+
+.section {
+  background: #d5f6df;
+  padding:2rem;
+}
+
+.container {
+  max-width: 65rem;
+  margin: auto;
+}
+
+.row {
+  margin: -2rem;
+  overflow: auto;
+}
+
+.grid-item {
+  width: calc(100% / 4 - 2rem - 2rem);
+  min-width: 8rem;
+  float: left;
+  margin: 2rem;
+}
+
+/*profile*/
+.profile {
+  margin: 0;
+}
+
+.profile * {
+  visibility: hidden;
+}
+
+.profile__username {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+/*prompt*/
+
+.prompt {
+  text-align: center;
+}
